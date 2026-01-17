@@ -183,8 +183,8 @@ function Signup() {
 }
 
 function Login() {
-  const [email, setEmail] = useState('test@123.com');
-  const [password, setPassword] = useState('password123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const { login } = React.useContext(AuthContext);
@@ -468,7 +468,7 @@ function Chat() {
       });
       const data = await res.json();
       
-      setMessages(prev => [...prev, { role: 'assistant', content: data.response }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: data.reply }]);
     } catch (err) {
       setMessages(prev => [...prev, { role: 'assistant', content: 'Error: ' + err.message }]);
     } finally {
