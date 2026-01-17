@@ -253,14 +253,3 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 📞 Support
-
-For issues and questions, please open a GitHub issue or contact the development team.
-
----
-
-**Happy Coding!** 🚀
