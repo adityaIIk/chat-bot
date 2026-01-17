@@ -252,4 +252,8 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+   
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/9cc9fe87-bbbd-44c7-9c22-dfe906e6991f" />
+
+
 
